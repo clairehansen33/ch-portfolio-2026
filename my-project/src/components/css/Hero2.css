@@ -1,0 +1,20 @@
+.splide__arrows {
+  display: none;
+}
+.splide {
+  flex: 6.84;
+  margin-bottom: 20px;
+  min-height: 280px;
+}
+.splide img {
+  height: 280px;
+}
+
+@media screen and (min-width: 901px) {
+  .splide {
+    margin-bottom: 0;
+  }
+  .splide img {
+    height: auto;
+  }
+}

@@ -1,0 +1,89 @@
+.hero-d {
+  display: none;
+}
+.hero-m {
+  display: flex;
+}
+.text__wrap {
+  container-type: size;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-banner-1 {
+  width: 51%;
+  right: 0;
+  top: 69px;
+  text-align: left;
+}
+.text__wrap .headline {
+  font-family: PetcoCircular-Black, "Segoe UI", Roboto, Arial, sans-serif;
+  color: white;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 160px;
+}
+.text__wrap .subhead {
+  font-family: PetcoCircular-Bold, "Segoe UI", Roboto, Arial, sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+}
+.text__wrap span[class*="body"] {
+  font-family: PetcoCircular-Bold, "Segoe UI", Roboto, Arial, sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 4px;
+}
+.text__wrap .cta {
+  font-family: var(--petco__font-family-black);
+  font-size: 14px;
+  font-weight: normal !important;
+  line-height: 1;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33px;
+  max-width: 125px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 26px;
+  margin: 8px 0;
+}
+
+@media screen and (min-width: 901px) {
+  .hero-m {
+    display: none;
+  }
+  .hero-d {
+    display: flex;
+  }
+  .text__wrap {
+    width: 37%;
+    top: 0;
+    justify-content: center;
+    margin-right: 16px;
+  }
+  .text__wrap .headline {
+    font-size: clamp(32px, 3.5vw, 50px);
+    max-width: unset;
+  }
+  .text__wrap .subhead {
+    font-size: clamp(24px, 2.8vw, 40px);
+  }
+  .text__wrap span[class*="body"] {
+    font-size: clamp(16px, 1.9vw, 27px);
+    max-width: 250px;
+  }
+  .text__wrap .cta {
+    max-width: 145px;
+    height: 44px;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+}

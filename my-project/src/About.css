@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+}
+.hp-hero {
+  margin: 16px 0 20px;
+}
+.hp-hero .container {
+  display: flex;
+  gap: 0;
+  max-width: 1440px;
+  margin: auto;
+  flex-direction: column;
+}
+.right-side {
+  flex: 3.16;
+  gap: 24px;
+  display: grid;
+  margin: 0 16px;
+}
+
+@media screen and (min-width: 481px) {
+  .hp-hero {
+    margin: 16px 16px 20px;
+  }
+  .right-side {
+    gap: 16px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .right-side {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .hp-hero {
+    margin: 16px 20px;
+  }
+  .hp-hero .container {
+    gap: 16px;
+    flex-direction: row;
+  }
+}

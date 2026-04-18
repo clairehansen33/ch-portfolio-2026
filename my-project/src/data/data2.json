@@ -1,0 +1,26 @@
+[
+  {
+    "href": "/shop/en/petcostore/category/top-deals/sitewide-offers",
+    "tag": "hp:hero:presidentsday26:1",
+    "ariaLabel": "20% off everything in store & online. Use code: SAVE20. Salute your snacker-in-chief with savings on all their faves. Shop now.",
+    "eyebrow": "Online only",
+    "title": "50% OFF Imagitarium open-glass tanks",
+    "subtitle": "Create the aquatic scene of your dreams for less—online only through 11/1.",
+    "ctaText": "Shop Now",
+    "imageMobile": "https://assets.petco.com/petco/image/upload/f_auto,q_auto:best,dpr_2.0/react-test-hero2-notext-M",
+    "imageDesktop": "https://assets.petco.com/petco/image/upload/f_auto,q_auto:best/react-test-hero2-notext-D",
+    "imageAlt": "20% off everything in store & online. Use code: SAVE20. Salute your snacker-in-chief with savings on all their faves. Shop now."
+  },
+  {
+    "href": "/shop/en/petcostore/brand/hills",
+    "tag": "hp:hero:RMNSSAD_HOMEPAGE_0_HILLS SCIENCE DIET-HSD_DOG&CAT_11134364064_0:2",
+    "ariaLabel": "50% off your first repeat delivery, 20% off your second repeat delivery, and 10% off your third repeat delivery. Shop now. Ends 2/28/26. Online only.",
+    "eyebrow": "Online only",
+    "title": "50% OFF Imagitarium open-glass tanks",
+    "subtitle": "Create the aquatic scene of your dreams for less—online only through 11/1.",
+    "ctaText": "Shop Now",
+    "imageMobile": "https://assets.petco.com/petco/image/upload/f_auto,q_auto:best,dpr_2.0/react-test-hero2-M",
+    "imageDesktop": "https://assets.petco.com/petco/image/upload/f_auto,q_auto:best/presidentsday-021326-D",
+    "imageAlt": "50% off your first repeat delivery, 20% off your second repeat delivery, and 10% off your third repeat delivery. Shop now. Ends 2/28/26. Online only."
+  }
+]
